@@ -1,0 +1,55 @@
+.blackpage {
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding: 5vw 5vw;
+  color: white;
+  gap: 5vh;
+
+  /* position: relative; */
+}
+.blackpage-title {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.blackpage-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.blackpage-body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.blackpage-header {
+  align-items: center;
+}
+.blackpage-header-picture {
+  text-align: center;
+}
+.blackpage-header-picture img {
+  width: 135px;
+}
+.blackpage-header-description-header,
+.blackpage-header-description-body {
+  text-align: center;
+  color: white;
+}
+.blackpage-header-description-header {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.blackpage-header-description-body {
+  font-size: 20px;
+}
+.blackpage-bottom-space {
+  width: 100%;
+  height: 5vh;
+}

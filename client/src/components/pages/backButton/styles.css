@@ -1,0 +1,26 @@
+.back-button {
+    background-color: black;
+    background-image: url(../../assets/svg/right-arrow-3094.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    /* position: absolute;
+    top: 30px;
+    left : 25px; */
+  }
+  
+  .back-button:hover {
+    background-color: lightgray;
+  }
+  
