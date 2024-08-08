@@ -1,0 +1,23 @@
+.wallet-task-list-text{
+    color:white;
+    font-size:30px;
+    display:flex;
+    align-items:center;
+}
+
+.item-list-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media screen and (max-width:350px) {
+    .wallet-task-list-text{
+        color:white;
+        font-size:13px;
+        display:flex;
+        align-items:center;
+    }
+}

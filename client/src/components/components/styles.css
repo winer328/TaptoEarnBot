@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "MyriadPro-Bold";
+  src: url(../assets/Font/Myriad_Pro/MyriadPro-Bold.otf);
+}
+.temp-div {
+  background-image: url("../assets/images/btns.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 10vw;
+  font-weight: bold;
+  font-family: "MyriadPro-Bold";
+  font-size: 3vw;
+}
+
+.quest-modalbody {
+  background-image: url(/src/components/assets/images/paperscroll.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70vw;
+  width: 80%;
+  margin: auto;
+  padding: 12vw 24vw;
+  box-shadow: 2px solid black;
+  color: black;
+}
+
+[class^="reactmodal"] {
+  background-color: rgb(21, 30, 39);
+  color: white;
+}
